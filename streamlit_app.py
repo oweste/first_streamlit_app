@@ -39,8 +39,7 @@ try:
     streamlit.dataframe(back_from_function)
 except URLError as e:
    streamlit.error()
-    
-my_cur = my_cnx.cursor()
+
 
 streamlit.header("The fruit load list contains:")
 def get_fruit_load_list():
